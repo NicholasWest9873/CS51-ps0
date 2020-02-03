@@ -21,7 +21,7 @@
    can do this by typing "make all" in the terminal. *)
 
 (* 1.a. Replace FIRST and LAST with your first and last name *)
-let name : (string * string) = ("FIRST", "LAST");;
+let name : (string * string) = ("Nicholas", "West");;
 
 
 
@@ -38,7 +38,7 @@ let name : (string * string) = ("FIRST", "LAST");;
  *)
 type year = Freshman | Sophomore | Junior | Senior | Other of string;;
 
-let class_year : year = Other "I haven't filled it in yet";;
+let class_year : year = Sophomore;;
 
 
 
@@ -46,7 +46,7 @@ let class_year : year = Other "I haven't filled it in yet";;
  * with a pattern shown in the type definition for cs50 below. *)
 type cs50 = Took | DidNotTake | Other of string;;
 
-let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
+let took_cs_50 : cs50 = Took;;
 
 
 
@@ -54,13 +54,13 @@ let took_cs_50 : cs50 = Other "I haven't filled it out yet";;
  * of your computer. *)
 type system = Mac | Windows10 | Windows7 | Linux | Other of string;;
 
-let my_system : system = Other "I haven't filled it out yet";;
+let my_system : system = Windows10;;
 
 
 
 (* 1.e. Replace the string below with a message to post to the problem
    set website. *)
-let exciting : string = "I'm excited about ....!" ;;
+let exciting : string = "I'm excited about being challenged and learning Ocaml" ;;
 
 
 
@@ -78,14 +78,14 @@ let post : bool = false;;
 (* 1.g. Set this variable to the key you got from pset0.herokuapp.com
    under the "key" tab if you want your information to appear
    there. *)
-let key : string = "";;
+let key : string = "c74b7373-702d-4944-b120-4521f37d66c1";;
 
 
 
 (* 1.h. Please complete the sectioning survey for the course, available
    at section.cs51.io. When you have completed the survey, set this
    variable to true. *)
-let sectioned : bool = false;;
+let sectioned : bool = true;;
 
 
 (*======================================================================
@@ -107,7 +107,7 @@ We care about your responses and will use them to help guide us in
 creating future assignments.
 ......................................................................*)
 
-let minutes_spent () : int = failwith "not provided" ;;
+let minutes_spent () : int = 160 ;;
 
 
 (* You can type the command
